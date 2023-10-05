@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    padding: 18px 50px;
+    flex-direction: column;
+    min-width: 100vw;
+    align-items: center;
+    gap: 64px;
+    flex-shrink: 0;
+    background-color: #525252;
+    background-image: url("Aura.png");
+    filter: grayscale(80%);
+    background-blend-mode: luminosity, normal;
+}
