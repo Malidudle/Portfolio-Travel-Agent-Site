@@ -1,10 +1,11 @@
 import LandingText from "@/components/landing/LandingText";
 import styles from "./page.module.css";
-import Footer from "@/components/footer/Footer";
-import LandingImages from "@/components/landing/LandingImages";
 import Navbar from "@/components/navbar/Navbar";
+import LandingImages from "@/components/landing/LandingImages";
 import ImageTracks from "@/components/imageTracks/ImageTracks";
-
+import Info from "@/components/contactSection/Info";
+import Footer from "@/components/footer/Footer";
+import Contact from "@/components/contactSection/Contact";
 
 export default function Home() {
   return (
@@ -18,8 +19,11 @@ export default function Home() {
         <section className="pb-[70px]">
           <ImageTracks />
         </section>
-        <section>
-          
+        <section className="flex pb-[70px]">
+          <div className="ml-auto mr-auto flex gap-6">
+            <Info />
+            <Contact />
+          </div>
         </section>
       </main>
       <Footer />

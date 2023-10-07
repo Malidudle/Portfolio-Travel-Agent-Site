@@ -58,15 +58,23 @@ const Footer = () => {
           <div className="flex flex-col gap-7">
             <h3 className="text-lg font-medium">Explore Destinations</h3>
             <div className="flex flex-col gap-5">
-              <Link className="underline cursor-pointer" href={"#"}>Search</Link>
-              <Link className="underline cursor-pointer" href={"#"}>Most Popular</Link>
+              <Link className="underline cursor-pointer" href={"#"}>
+                Search
+              </Link>
+              <Link className="underline cursor-pointer" href={"#"}>
+                Most Popular
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-7">
             <h3 className="text-lg font-medium">About Us</h3>
             <div className="flex flex-col gap-5">
-              <Link className="underline cursor-pointer" href={"#"}>Our Mission</Link>
-              <Link className="underline cursor-pointer" href={"#"}>Terms and Conditions</Link>
+              <Link className="underline cursor-pointer" href={"#"}>
+                Our Mission
+              </Link>
+              <Link className="underline cursor-pointer" href={"#"}>
+                Terms and Conditions
+              </Link>
             </div>
           </div>
         </div>
@@ -75,9 +83,18 @@ const Footer = () => {
       <div className="flex justify-between items-center gap-8 w-full text-sm">
         <h4>Lorem Travel Agents 2044©</h4>
         <div className="flex gap-[24px] ml-auto mr-auto">
-          <Link className="underline cursor-pointer" href={"#"}>Newsletter</Link>
-          <Link className="underline cursor-pointer" href={"#"}>Privacy Policy</Link>
-          <Link className="underline cursor-pointer overflow-visible" href={"#"}>Made by Malin Grafton</Link>
+          <Link className="underline cursor-pointer" href={"#"}>
+            Newsletter
+          </Link>
+          <Link className="underline cursor-pointer" href={"#"}>
+            Privacy Policy
+          </Link>
+          <Link
+            className="underline cursor-pointer overflow-visible"
+            href={"#"}
+          >
+            Made by Malin Grafton
+          </Link>
         </div>
         <div className="flex gap-[24px] items-center">
           <svg

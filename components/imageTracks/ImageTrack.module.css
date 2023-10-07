@@ -26,19 +26,19 @@
 .imageSlide1 {
   display: flex;
   gap: 1rem;
-  animation: 120s slide infinite linear;
+  animation: 180s slide infinite linear;
 }
 
 .imageSlide2 {
   display: flex;
   gap: 1rem;
-  animation: 160s slideReverse infinite linear;
+  animation: 200s slideReverse infinite linear;
 }
 
 .imageSlide3 {
   display: flex;
   gap: 1rem;
-  animation: 260s slide infinite linear;
+  animation: 320s slide infinite linear;
 }
 
 .logoSlide Image {
