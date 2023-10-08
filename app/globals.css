@@ -19,6 +19,7 @@ body::after {
 }
 
 body::before {
+  min-height: 100vh;
   content: "";
   background-image: url("../public/background/texture1.png");
   background-size: cover;

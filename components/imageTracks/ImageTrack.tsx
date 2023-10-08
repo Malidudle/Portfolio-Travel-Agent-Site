@@ -6,6 +6,7 @@ interface ImageObject {
   path: StaticImageData;
   width: number;
   label: string;
+  destinationID: string;
 }
 
 interface ImagesProps {
@@ -27,7 +28,7 @@ const Slide: React.FC<ImagesProps> = ({ images, line }) => {
     <div className={stylePicker(line)}>
       {images.map((image, index) => (
         <div key={`${index}-track2`} className="inline-block relative">
-          <Link href={`/destinations/${image.label}`}>
+          <Link href={`/destinations/${image.destinationID}`}>
           <Image
             src={image.path}
             alt="Holiday Destination"

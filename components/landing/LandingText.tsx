@@ -8,13 +8,13 @@ const landingText = () => {
     <div className="flex flex-col justify-center lg:ml-[80px] lg:items-start lg:mr-0 lg:pt-0 items-center mr-auto ml-auto pt-6">
       <h1 className="text-5xl mb-4">Book Your Dream Trip</h1>
       <p className="w-[500px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
-        ullamcorper consectetur a sagittis purus vestibulum in.
+        Welcome! Explore captivating destinations and
+        create lasting memories with us.
       </p>
       <motion.button
         whileHover={{ scale: 1.03 }}
         whileTap={{ scale: 0.97 }}
-        className="w-[210px] rounded my-6 bg-[#333333] p-3 flex items-center gap-4 "
+        className="w-[220px] rounded my-6 bg-[#333333] p-3 flex items-center gap-4 "
       >
         <p>Explore Destinations</p>
         <svg

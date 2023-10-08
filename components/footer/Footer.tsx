@@ -50,13 +50,13 @@ const Footer = () => {
               strokeLinejoin="round"
             />
           </svg>
-          <h2 className="text-white font-podkova text-2xl font-semibold leading-6 md:visible-no">
+          <h3 className="text-white font-podkova text-2xl font-semibold leading-6 md:visible-no">
             Lorem Travel Agents
-          </h2>
+          </h3>
         </div>
         <div className="flex items-start gap-32 flex-1 mr-0">
           <div className="flex flex-col gap-7">
-            <h3 className="text-lg font-medium">Explore Destinations</h3>
+            <h4 className="text-lg font-medium">Explore Destinations</h4>
             <div className="flex flex-col gap-5">
               <Link className="underline cursor-pointer" href={"#"}>
                 Search
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-7">
-            <h3 className="text-lg font-medium">About Us</h3>
+            <h4 className="text-lg font-medium">About Us</h4>
             <div className="flex flex-col gap-5">
               <Link className="underline cursor-pointer" href={"#"}>
                 Our Mission
@@ -81,7 +81,7 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between items-center gap-8 w-full text-sm">
-        <h4>Lorem Travel Agents 2044©</h4>
+        <p>Lorem Travel Agents 2044©</p>
         <div className="flex gap-[24px] ml-auto mr-auto">
           <Link className="underline cursor-pointer" href={"#"}>
             Newsletter

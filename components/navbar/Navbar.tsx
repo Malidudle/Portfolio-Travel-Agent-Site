@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex gap-6 items-center px-[80px] pt-6 h-[70px] w-max ml-auto mr-auto lg:mr-0 lg:ml-0">
+    <nav className="flex gap-6 items-center lg:px-[80px] md:px-[80px] pt-6 h-[70px] w-max ml-auto mr-auto lg:mr-0 lg:ml-0">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
@@ -47,7 +47,7 @@ const Navbar = () => {
           strokeLinejoin="round"
         />
       </svg>
-      <Link href={"#"} className="text-xl">
+      <Link href={"/"} className="text-xl">
         Home
       </Link>
       <Link href={"#"} className="text-xl flex items-center gap-2">

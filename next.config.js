@@ -1,13 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.nationalgeographic.org",
-        port: "",
-      },
-    ],
+    domains: ['127.0.0.1'],
   },
 };
 
