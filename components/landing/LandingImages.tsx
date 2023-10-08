@@ -1,6 +1,6 @@
 import Image from "next/image";
-import BeachHouses from "@/public/landing/BeachHouses.jpg";
-import FoggyMountain from "@/public/landing/FoggyMountain.jpg";
+import BeachHouses from "@/public/landing/beachHouses.jpg";
+import FoggyMountain from "@/public/landing/foggyMountain.jpg";
 import Portugal from "@/public/landing/portugal.jpg";
 
 const LandingImages = () => {
