@@ -28,20 +28,21 @@ const page = async ({
 
     const url = pb.files.getUrl(image, image.Photo);
     return (
-      <main className="h-[100vh]">
+      <main className="h-[100%] min-h-[100vh]">
         <Navbar />
         <div className="p-5 flex">
-          <article className="flex flex-col lg:flex-row md:flex-row sm:flex-col lg:gap-[380px] md:gap-[160px] gap-5 ml-auto mr-auto lg:justify-center md:justify-center items-center pt-6">
+          <article className="flex flex-col lg:flex-row md:flex-row sm:flex-col lg:gap-[280px] md:gap-[160px] gap-5 ml-auto mr-auto lg:justify-center md:justify-center items-center pt-6">
             <Image
               src={url}
               alt={""}
               width={400}
               height={400}
-              className="w-[300px] h-[300px] rounded-xl"
+              className="w-[300px] h-[300px] rounded-xl object-cover"
+              priority={true}
             />
             <div className="flex flex-col justify-center items-center gap-3 w-fit">
               <h1 className="text-4xl">{record.Title}</h1>
-              <p>{record.Description}</p>
+              <p className="text-center">{record.Description}</p>
               <motion.button
                 onClick={clickHandler}
                 whileHover={{ scale: 1.03 }}

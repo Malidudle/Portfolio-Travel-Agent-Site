@@ -11,6 +11,7 @@ const LandingImages = () => {
           src={BeachHouses}
           alt={"Beach Houses In the sun in portugal"}
           className="h-[504px] w-[300px] object-cover rounded-xl"
+          priority={true}
         />
       </div>
       <div>
@@ -18,11 +19,13 @@ const LandingImages = () => {
           src={FoggyMountain}
           alt={"Old Man of Storr aka Kaer Morhen"}
           className="h-[240px] w-[300px] object-cover rounded-xl mb-6"
+          priority={true}
         />
         <Image
           src={Portugal}
           alt={"A Portugese Town"}
           className="h-[240px] w-[300px] object-cover rounded-xl"
+          priority={true}
         />
       </div>
     </div>

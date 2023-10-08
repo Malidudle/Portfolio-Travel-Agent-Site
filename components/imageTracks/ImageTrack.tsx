@@ -28,7 +28,7 @@ const Slide: React.FC<ImagesProps> = ({ images, line }) => {
     <div className={stylePicker(line)}>
       {images.map((image, index) => (
         <div key={`${index}-track2`} className="inline-block relative">
-          <Link href={`/destinations/${image.destinationID}`}>
+          <Link href={`/destinations/${image.destinationID}`} draggable='false'>
           <Image
             src={image.path}
             alt="Holiday Destination"
@@ -36,6 +36,7 @@ const Slide: React.FC<ImagesProps> = ({ images, line }) => {
             height={200}
             className="rounded-2xl h-[200px] object-cover select-none"
             draggable={false}
+            priority={true}
           />
           </Link>
           <label className="absolute bottom-1 left-1 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded-xl">

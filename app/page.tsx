@@ -20,7 +20,7 @@ export default function Home() {
           <ImageTracks />
         </section>
         <section className="flex pb-[70px]">
-          <div className="ml-auto mr-auto flex gap-6">
+          <div className="ml-auto mr-auto flex gap-12">
             <Info />
             <Contact />
           </div>
