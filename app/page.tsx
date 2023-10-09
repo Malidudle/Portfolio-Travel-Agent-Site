@@ -7,6 +7,8 @@ import Info from "@/components/contactSection/Info";
 import Footer from "@/components/footer/Footer";
 import Contact from "@/components/contactSection/Contact";
 
+export const dynamic = "force-static";
+
 export default function Home() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Home() {
           <ImageTracks />
         </section>
         <section className="flex flex-col md:flex-row lg:flex-row pb-[70px]">
-          <div className="ml-auto mr-auto flex gap-12">
+          <div className="ml-auto mr-auto flex gap-12 lg:flex-row md:flex-row flex-col">
             <Info />
             <Contact />
           </div>

@@ -4,8 +4,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className="flex items-start lg:gap-32 md:gap-16 sm:gap-6 self-stretch">
-        <div className="flex  items-center gap-2 flex-1 ml-0">
+      <div className="flex items-start lg:gap-32 md:gap-16 sm:gap-6 gap-6 self-stretch lg:flex-row md:flex-col sm:flex-col flex-col ml-auto mr-auto">
+        <div className="flex items-center gap-2 flex-1 justify-center ml-auto mr-auto lg:mr-0 lg:ml-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="52"
@@ -50,11 +50,11 @@ const Footer = () => {
               strokeLinejoin="round"
             />
           </svg>
-          <h3 className="text-white font-podkova text-2xl font-semibold leading-6 md:visible-no">
+          <h3 className="text-white font-podkova text-2xl font-semibold leading-6">
             Lorem Travel Agents
           </h3>
         </div>
-        <div className="flex items-start gap-32 flex-1 mr-0">
+        <div className="flex items-start lg:gap-32 md:gap-20 sm:gap-7 gap-7 flex-1 mr-0">
           <div className="flex flex-col gap-7">
             <h4 className="text-lg font-medium">Explore Destinations</h4>
             <div className="flex flex-col gap-5">
@@ -80,9 +80,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center gap-8 w-full text-sm">
+      <div className="flex justify-between items-center gap-8 w-full text-sm lg:flex-row md:flex-col sm:flex-col">
         <p>Lorem Travel Agents 2044©</p>
-        <div className="flex gap-[24px] ml-auto mr-auto">
+        <div className="flex gap-[24px] ml-auto mr-auto flex-col lg:flex-row md:flex-row">
           <Link className="underline cursor-pointer" href={"#"}>
             Newsletter
           </Link>
