@@ -19,7 +19,7 @@ export default function Home() {
         <section className="pb-[70px]">
           <ImageTracks />
         </section>
-        <section className="flex pb-[70px]">
+        <section className="flex flex-col md:flex-row lg:flex-row pb-[70px]">
           <div className="ml-auto mr-auto flex gap-12">
             <Info />
             <Contact />
