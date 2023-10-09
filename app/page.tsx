@@ -14,14 +14,14 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <Navbar />
-        <section className="flex pb-[70px] ">
+        <section className="flex pb-[100px] ">
           <LandingText />
           <LandingImages />
         </section>
-        <section className="pb-[70px]">
+        <section className="pb-[100px]">
           <ImageTracks />
         </section>
-        <section className="flex flex-col md:flex-row lg:flex-row pb-[70px]">
+        <section className="flex flex-col md:flex-row lg:flex-row pb-[100px]">
           <div className="ml-auto mr-auto flex gap-12 lg:flex-row md:flex-row flex-col">
             <Info />
             <Contact />

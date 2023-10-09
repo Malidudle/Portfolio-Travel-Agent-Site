@@ -18,26 +18,26 @@
 
 .images {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   overflow: hidden;
   width: max-content;
 }
 
 .imageSlide1 {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   animation: 180s slide infinite linear;
 }
 
 .imageSlide2 {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   animation: 200s slideReverse infinite linear;
 }
 
 .imageSlide3 {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   animation: 320s slide infinite linear;
 }
 

@@ -183,10 +183,10 @@ const images3 = [
 
 const ImageTracks = () => {
   return (
-    <div className="flex flex-col gap-3">
-      <ImageTrack images={images1} line={1} />
-      <ImageTrack images={images2} line={2} />
-      <ImageTrack images={images3} line={3} />
+    <div className="flex flex-col gap-7">
+      <ImageTrack images={images1} line={1} lazy={false} />
+      <ImageTrack images={images2} line={2} lazy={false} />
+      <ImageTrack images={images3} line={3} lazy={true} />
     </div>
   );
 };
