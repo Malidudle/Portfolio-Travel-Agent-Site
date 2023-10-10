@@ -8,10 +8,12 @@ const LandingImages = () => {
     <div className="lg:flex gap-6 mr-[70px] ml-auto hidden">
       <div>
         <Image
-          src={BeachHouses}
+          src={"https://iakzvzsxlxddjplvwuff.supabase.co/storage/v1/object/public/images/BeachHouses.jpg"}
           alt={"Beach Houses In the sun in portugal"}
           className="h-[504px] w-[300px] object-cover rounded-xl"
           priority={true}
+          height={504}
+          width={300}
         />
       </div>
       <div>

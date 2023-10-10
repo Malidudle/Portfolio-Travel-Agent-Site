@@ -11,7 +11,7 @@
   "dependencies": {
     "framer-motion": "^10.16.4",
     "next": "^13.5.4",
-    "pocketbase": "^0.18.2",
+    "prisma": "^5.4.2",
     "react": "latest",
     "react-blurhash": "^0.3.0",
     "react-dom": "latest",

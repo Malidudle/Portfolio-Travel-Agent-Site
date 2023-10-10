@@ -52,8 +52,8 @@ const Slide: React.FC<ImagesProps> = ({ images, line, lazy }) => {
 const ImageTrack: React.FC<ImagesProps> = ({ images, line, lazy }) => {
   return (
     <div className={styles.images}>
-      <Slide images={images} line={line} lazy={line != 2 ? false : true} />
-      <Slide images={images} line={line} lazy={line != 2 ? true : false} />
+      <Slide images={images} line={line} lazy={line != 2 || 3 ? false : true} />
+      <Slide images={images} line={line} lazy={line != 2 || 3 ? true : true} />
     </div>
   );
 };
