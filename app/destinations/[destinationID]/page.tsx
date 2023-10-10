@@ -26,7 +26,7 @@ const page = async ({
         <Navbar />
         <div className="p-5 flex">
           <article className="flex flex-col lg:flex-row md:flex-row sm:flex-col lg:gap-[280px] md:gap-[160px] gap-5 ml-auto mr-auto lg:justify-center md:justify-center items-center pt-6">
-            <img
+            <Image
               src={url}
               alt={""}
               width={400}
