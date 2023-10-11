@@ -21,7 +21,7 @@ const page = async ({
           {destination?.image_url ? (
             <Image
               src={destination?.image_url!}
-              alt={destination?.Description_!}
+              alt={destination?.Description!}
               width={300}
               height={300}
               placeholder="blur"
@@ -34,7 +34,7 @@ const page = async ({
           )}
           <div className="flex flex-col gap-2 text-center">
             <h1 className="text-4xl">{destination?.Name}</h1>
-            <p className="text-sm">{destination?.Description_}</p>
+            <p className="text-sm">{destination?.Description}</p>
           </div>
         </div>
       </main>
