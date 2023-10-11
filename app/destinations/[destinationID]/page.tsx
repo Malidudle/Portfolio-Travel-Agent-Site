@@ -21,7 +21,7 @@ const page = async ({
           {destination?.image_url ? (
             <Image
               src={destination?.image_url!}
-              alt={destination?.Description!}
+              alt={destination?.Description_!}
               width={300}
               height={300}
               placeholder="blur"
