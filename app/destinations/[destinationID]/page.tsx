@@ -1,9 +1,31 @@
-import React from 'react'
+import { prisma } from "@/lib/prisma";
+import React from "react";
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
-}
+const page = async ({
+  params: { destinationID },
+}: {
+  params: {
+    destinationID: number;
+  };
+}) => {
+  try {
+    console.log(destinationID);
+    const destination = await prisma.destinations.findUnique({
+      where: {
+        id: destinationID,
+      },
+    });
 
-export default page
+    return <div>{destination?.Name}</div>;
+  } catch (error) {
+    console.error(error);
+
+    return (
+      <main>
+        <p>{"Destination not found :("}</p>
+      </main>
+    );
+  }
+};
+
+export default page;

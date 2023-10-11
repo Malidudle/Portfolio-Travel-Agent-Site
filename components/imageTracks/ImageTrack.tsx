@@ -6,7 +6,7 @@ interface ImageObject {
   path: StaticImageData;
   width: number;
   label: string;
-  destinationID: string;
+  destinationID: number;
 }
 
 interface ImagesProps {
