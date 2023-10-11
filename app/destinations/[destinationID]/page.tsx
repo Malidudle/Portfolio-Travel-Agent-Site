@@ -34,7 +34,7 @@ const page = async ({
           )}
           <div className="flex flex-col gap-2 text-center">
             <h1 className="text-4xl">{destination?.Name}</h1>
-            <p className="text-sm">{destination?.Description}</p>
+            <p className="text-sm">{destination?.Description_}</p>
           </div>
         </div>
       </main>
