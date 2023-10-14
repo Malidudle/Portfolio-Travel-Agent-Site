@@ -10,24 +10,10 @@ html {
 }
 
 body {
+  min-height: 100vh;
   overflow-x: hidden;
   position: relative;
 }
-
-/* body::after {
-  background: url("../public/background/bg.png");
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  background: #FFF;
-  background-size: contain;
-} */
 
 body::before {
   min-height: 100vh;

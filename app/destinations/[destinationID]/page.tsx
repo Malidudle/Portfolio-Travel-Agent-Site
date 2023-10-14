@@ -18,8 +18,7 @@ const page = async ({
 
     return (
       <>
-      <Navbar />
-        <main className="min-h-[100vh] flex items-center p-2">
+        <main className="min-h-[100%] flex items-center p-2 pt-[15%]">
           <div className="ml-auto mr-auto flex flex-col items-center gap-5 lg:flex-row md:flex-col sm:flex-col">
             {destination?.image_url ? (
               <Image

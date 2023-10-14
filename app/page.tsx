@@ -1,11 +1,11 @@
-import LandingText from "@/components/landing/LandingText";
+import LandingText from "@/components/landingPage/landing/LandingText";
 import styles from "./page.module.css";
 import Navbar from "@/components/navbar/Navbar";
-import LandingImages from "@/components/landing/LandingImages";
-import ImageTracks from "@/components/imageTracks/ImageTracks";
-import Info from "@/components/contactSection/Info";
-import Footer from "@/components/footer/Footer";
-import Contact from "@/components/contactSection/Contact";
+import LandingImages from "@/components/landingPage/landing/LandingImages";
+import ImageTracks from "@/components/landingPage/imageTracks/ImageTracks";
+import Info from "@/components/landingPage/contactSection/Info";
+import Footer from "@/components/landingPage/footer/Footer";
+import Contact from "@/components/landingPage/contactSection/Contact";
 
 export const dynamic = "force-static";
 
@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        <Navbar />
         <section className="flex pb-[100px] ">
           <LandingText />
           <LandingImages />
